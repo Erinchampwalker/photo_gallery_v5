@@ -1,0 +1,38 @@
+html {font-size: 18px;}
+
+body {
+    background: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+}
+
+.searchbox {
+    margin: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 10px 20px -10px rgba(0,0,0,0.4);
+    border: 1px solid lightgray;
+    width: 600px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.image_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+
+}
+.image_gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    column-gap: 2rem;
+    row-gap: 2rem;
+    justify-items: center
+}
