@@ -29,7 +29,7 @@ header {
     width: auto;
 
 }
-.image_gallery {
+.gallery {
     display: grid;
     grid-template-columns: repeat(4, 200px);
     column-gap: 2rem;
