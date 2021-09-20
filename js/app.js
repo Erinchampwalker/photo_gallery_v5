@@ -5,6 +5,7 @@
 /* CUSTOM SEARCH 😮 */
 
 
+
 let userInput = document.querySelector('.searchbox');
 let a = document.querySelectorAll('a');
 let imageArray = Array.from(a);
@@ -21,7 +22,7 @@ const searchFilter = () => {
     }
   }
 };
-
+document.getElementById('search').addEventListener('input', searchFilter);
 
 
 baguetteBox.run('.gallery');
